@@ -5,8 +5,8 @@ const Projectsboth = [
     Image: "/Screenshot (176).png",
     description:
       "A web application built with React and Tailwind CSS that allows users to track their tasks and manage their time effectively.",
-    github: "https://github.com/username/project-one",
-    live: "https://project-one.example.com",
+    github: "https://github.com/shaadali-tech/E-Commerce",
+    live: "https://e-commerce-pybx.onrender.com/",
   },
   {
     id: 2,
@@ -14,8 +14,8 @@ const Projectsboth = [
     Image: "/Screenshot (177).png",
     description:
       "A mobile app developed using React Native that helps users monitor their fitness goals and progress.",
-    github: "https://github.com/username/project-two",
-    live: "https://project-two.example.com",
+    github: "https://github.com/shaadali-tech/Weather-Dashboard",
+    live: "https://shaadali-tech.github.io/Weather-Dashboard/",
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ const Projectsboth = [
     Image: "/Screenshot (103).png",
     description:
       "A desktop application built with Electron that provides a seamless experience for managing projects and collaborate with team members.",
-    github: "https://github.com/username/project-three",
-    live: "https://project-three.example.com",
+    github: "https://github.com/shaadali-tech/Dashboard",
+    live: "https://github.com/shaadali-tech/Dashboard",
   },
   {
     id: 4,
@@ -32,8 +32,8 @@ const Projectsboth = [
     Image: "/Screenshot (53).png",
     description:
       "A web application built with React and Tailwind CSS that allows users to track their tasks and manage their time effectively.",
-    github: "https://github.com/username/project-four",
-    live: "https://project-four.example.com",
+    github: "https://github.com/shaadali-tech/Dashboard",
+    live: "https://github.com/shaadali-tech/Dashboard",
   },
 ];
 

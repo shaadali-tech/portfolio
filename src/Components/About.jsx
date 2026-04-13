@@ -19,29 +19,46 @@ const About = () => {
             />
             {/* Overlay Badge */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
-              <span className="text-white font-semibold text-lg">MERN + Power BI</span>
+              <span className="text-white font-semibold text-lg">
+                MERN + Power BI
+              </span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Content Section */}
-      <div className="flex-1 max-w-2xl slide-up-fade" style={{ animationDelay: "0.2s" }}>
+      <div
+        className="flex-1 max-w-2xl slide-up-fade"
+        style={{ animationDelay: "0.2s" }}
+      >
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           <span className="gradient-text">About Me</span>
         </h2>
 
         <div className="space-y-4 text-gray-200">
           <p className="text-lg leading-relaxed">
-            Hi! I'm <span className="text-blue-400 font-semibold">Shaad Ali</span>, a passionate Full Stack Developer and Data Analyst with expertise in building modern, scalable web applications and creating insightful data visualizations.
+            Hi! I'm{" "}
+            <span className="text-blue-400 font-semibold">Shaad Ali</span>, a
+            passionate Full Stack Developer and Data Analyst with expertise in
+            building modern, scalable web applications and creating insightful
+            data visualizations.
           </p>
 
           <p className="text-lg leading-relaxed">
-            With a strong foundation in the <span className="text-blue-400 font-semibold">MERN stack</span> (MongoDB, Express, React, Node.js), I craft user-friendly interfaces and robust backend solutions. I'm also proficient in <span className="text-purple-400 font-semibold">Power BI</span> for transforming raw data into actionable business intelligence.
+            With a strong foundation in the{" "}
+            <span className="text-blue-400 font-semibold">MERN stack</span>{" "}
+            (MongoDB, Express, React, Node.js), I craft user-friendly interfaces
+            and robust backend solutions. I'm also proficient in{" "}
+            <span className="text-purple-400 font-semibold">Power BI</span> for
+            transforming raw data into actionable business intelligence.
           </p>
 
           <p className="text-lg leading-relaxed">
-            I'm passionate about creating clean, efficient code and solving complex problems. When I'm not coding or analyzing data, you'll find me exploring new technologies and contributing to open-source projects.
+            I'm passionate about creating clean, efficient code and solving
+            complex problems. When I'm not coding or analyzing data, you'll find
+            me exploring new technologies and contributing to open-source
+            projects.
           </p>
         </div>
 
@@ -59,12 +76,16 @@ const About = () => {
 
           <div className="bg-slate-700/50 hover:bg-slate-600/50 p-4 rounded-lg border border-pink-500/30 hover:border-pink-500/60 transition-all duration-300">
             <h3 className="font-semibold text-pink-400 mb-2">🎨 Frontend</h3>
-            <p className="text-sm text-gray-300">Tailwind, UX Design, Responsive</p>
+            <p className="text-sm text-gray-300">
+              Tailwind, UX Design, Responsive
+            </p>
           </div>
 
           <div className="bg-slate-700/50 hover:bg-slate-600/50 p-4 rounded-lg border border-green-500/30 hover:border-green-500/60 transition-all duration-300">
             <h3 className="font-semibold text-green-400 mb-2">⚙️ Backend</h3>
-            <p className="text-sm text-gray-300">APIs, Database, Authentication</p>
+            <p className="text-sm text-gray-300">
+              APIs, Database, Authentication
+            </p>
           </div>
         </div>
       </div>

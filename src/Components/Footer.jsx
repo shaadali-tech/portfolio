@@ -44,13 +44,17 @@ const Footer = () => {
               <h3 className="text-xl font-bold gradient-text">Shaad Ali</h3>
             </div>
             <p className="text-gray-400 text-sm max-w-xs">
-              Building scalable web applications and transforming data into insights.
+              Building scalable web applications and transforming data into
+              insights.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div className="text-center slide-up-fade" style={{ animationDelay: "0.1s" }}>
-            <h4 className="text-white font-semibold mb-4">Quick Links</h4>
+          <div
+            className="text-center slide-up-fade"
+            style={{ animationDelay: "0.1s" }}
+          >
+            <h4 className="text-white font-semibold  mb-4">Quick Links</h4>
             <div className="space-y-2">
               {footerLinks.map((link) => (
                 <a
@@ -65,7 +69,10 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="text-center md:text-right slide-up-fade" style={{ animationDelay: "0.2s" }}>
+          <div
+            className="text-center md:text-right slide-up-fade"
+            style={{ animationDelay: "0.2s" }}
+          >
             <h4 className="text-white font-semibold mb-4">Connect</h4>
             <div className="flex justify-center md:justify-end gap-4">
               {socialLinks.map((social) => (
@@ -85,29 +92,47 @@ const Footer = () => {
         </div>
 
         {/* Skills & Tech Stack */}
-        <div className="mb-8 pb-8 border-b border-slate-800 slide-up-fade" style={{ animationDelay: "0.3s" }}>
-          <h4 className="text-white font-semibold mb-4 text-center">Tech Stack</h4>
+        <div
+          className="mb-8 pb-8 border-b border-slate-800 slide-up-fade"
+          style={{ animationDelay: "0.3s" }}
+        >
+          <h4 className="text-white font-semibold mb-4 text-center">
+            Tech Stack
+          </h4>
           <div className="flex flex-wrap gap-3 justify-center">
-            {["React", "Node.js", "MongoDB", "Express", "Tailwind", "Power BI", "SQL", "JavaScript"].map(
-              (tech) => (
-                <span
-                  key={tech}
-                  className="px-3 py-1 bg-slate-800 border border-blue-500/30 rounded-full text-sm text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
-                >
-                  {tech}
-                </span>
-              )
-            )}
+            {[
+              "React",
+              "Node.js",
+              "MongoDB",
+              "Express",
+              "Tailwind",
+              "Power BI",
+              "SQL",
+              "JavaScript",
+            ].map((tech) => (
+              <span
+                key={tech}
+                className="px-3 py-1 bg-slate-800 border border-blue-500/30 rounded-full text-sm text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
+              >
+                {tech}
+              </span>
+            ))}
           </div>
         </div>
 
         {/* Copyright & Bottom Info */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400 slide-up-fade" style={{ animationDelay: "0.4s" }}>
+        <div
+          className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400 slide-up-fade"
+          style={{ animationDelay: "0.4s" }}
+        >
           <p>
-            © {currentYear} <span className="font-semibold text-white">Shaad Ali</span>. All rights reserved.
+            © {currentYear}{" "}
+            <span className="font-semibold text-white">Shaad Ali</span>. All
+            rights reserved.
           </p>
           <p className="text-center">
-            Crafted with <span className="text-red-500">❤️</span> using React & Tailwind CSS
+            Crafted with <span className="text-red-500">❤️</span> using React &
+            Tailwind CSS
           </p>
         </div>
       </div>

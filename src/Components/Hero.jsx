@@ -14,7 +14,10 @@ const Hero = () => {
       {/* Animated Background Blobs */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 float-animation"></div>
-        <div className="absolute -bottom-8 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 float-animation" style={{ animationDelay: "2s" }}></div>
+        <div
+          className="absolute -bottom-8 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 float-animation"
+          style={{ animationDelay: "2s" }}
+        ></div>
       </div>
 
       <div className="relative z-10 slide-up-fade">
@@ -30,7 +33,8 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          I build scalable web applications and transform data into meaningful insights.
+          I build scalable web applications and transform data into meaningful
+          insights.
           <br className="hidden sm:block" />
           Expertise in React, Node.js, MongoDB, and Power BI dashboards.
         </p>

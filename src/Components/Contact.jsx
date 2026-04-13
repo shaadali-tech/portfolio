@@ -56,8 +56,8 @@ const Contact = () => {
             <span className="gradient-text">Get In Touch</span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            I'm always open to opportunities, collaborations, and meaningful conversations.
-            Let's connect!
+            I'm always open to opportunities, collaborations, and meaningful
+            conversations. Let's connect!
           </p>
         </div>
 
@@ -90,7 +90,9 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="mt-8">
-              <p className="text-gray-400 mb-4">Follow or connect with me on:</p>
+              <p className="text-gray-400 mb-4">
+                Follow or connect with me on:
+              </p>
               <div className="flex gap-4">
                 <a
                   href="https://github.com/shaadali-tech"

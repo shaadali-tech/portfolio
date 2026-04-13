@@ -15,7 +15,7 @@ const Projects = () => {
     const colors = {
       React: "bg-blue-500/20 text-blue-300 border-blue-500/30",
       Node: "bg-green-500/20 text-green-300 border-green-500/30",
-      "MongoDB": "bg-green-600/20 text-green-400 border-green-600/30",
+      MongoDB: "bg-green-600/20 text-green-400 border-green-600/30",
       Tailwind: "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
       API: "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
       Responsive: "bg-purple-500/20 text-purple-300 border-purple-500/30",
@@ -101,7 +101,7 @@ const Projects = () => {
                       <span
                         key={i}
                         className={`text-xs px-3 py-1 rounded-full border ${getTechColor(
-                          tech
+                          tech,
                         )}`}
                       >
                         {tech}

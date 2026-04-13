@@ -114,7 +114,10 @@ const Skills = () => {
         </div>
 
         {/* Additional Skills Summary */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 slide-up-fade" style={{ animationDelay: "0.3s" }}>
+        <div
+          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 slide-up-fade"
+          style={{ animationDelay: "0.3s" }}
+        >
           {[
             { title: "Full Stack", count: "MERN" },
             { title: "Database", count: "MongoDB" },
