@@ -1,6 +1,7 @@
-import About from "../Components/About";
-import Hero from "../Components/Hero";
-import Navbar from "../Components/Navbar";
+import About from "./Components/About";
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </>
   );
 }
