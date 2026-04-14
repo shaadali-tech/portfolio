@@ -4,7 +4,7 @@ const Projectsboth = [
     title: "E-commmerce",
     Image: "/Screenshot (176).png",
     description:
-      "A web application built with React and Tailwind CSS that allows users to track their tasks and manage their time effectively.",
+      "A web application built with React and Node.js that allows users to browse and purchase products online.",
     github: "https://github.com/shaadali-tech/E-Commerce",
     live: "https://e-commerce-pybx.onrender.com/",
   },
@@ -13,7 +13,7 @@ const Projectsboth = [
     title: "Weather-Dashboard",
     Image: "/Screenshot (177).png",
     description:
-      "A mobile app developed using React Native that helps users monitor their fitness goals and progress.",
+      "A web application built with React and Node.js that provides weather information and forecasts.",
     github: "https://github.com/shaadali-tech/Weather-Dashboard",
     live: "https://shaadali-tech.github.io/Weather-Dashboard/",
   },
@@ -21,8 +21,7 @@ const Projectsboth = [
     id: 3,
     title: "E-commerce Sales Dashboard",
     Image: "/Screenshot (103).png",
-    description:
-      "A desktop application built with Electron that provides a seamless experience for managing projects and collaborate with team members.",
+    description: "A dashboard for monitoring e-commerce sales performance.",
     github: "https://github.com/shaadali-tech/Dashboard",
     live: "https://github.com/shaadali-tech/Dashboard",
   },
@@ -30,8 +29,7 @@ const Projectsboth = [
     id: 4,
     title: "Car Sales Dashboard",
     Image: "/Screenshot (53).png",
-    description:
-      "A web application built with React and Tailwind CSS that allows users to track their tasks and manage their time effectively.",
+    description: "A dashboard for monitoring car sales performance.",
     github: "https://github.com/shaadali-tech/Dashboard",
     live: "https://github.com/shaadali-tech/Dashboard",
   },
